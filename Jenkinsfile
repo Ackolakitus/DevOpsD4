@@ -4,7 +4,7 @@ node {
         checkout scm
     }
     stage('Build image') {
-       app = docker.build("Ackolakitus/DevOpsD4Jenkins")
+       app = docker.build("ackolakitus/DevOpsD4Jenkins")
     }
     stage('Push image') {   
         docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
