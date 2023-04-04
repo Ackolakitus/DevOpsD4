@@ -1,3 +1,9 @@
 This is dev text file.
+Change on master branch.
+Jenkins will ignore this.
 
 Change on master branch.
+Jenkins will ignore this.
+
+Change on master branch.
+Jenkins will ignore this.
